@@ -1,0 +1,13 @@
+{
+    "FSharp.suggestGitignore": false,
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "test",
+            "group": "test",
+            "database": "${workspaceFolder:onlineshop}/src/Web/OnlineShop.Web.UI/Products.db"
+        }
+    ]
+}
