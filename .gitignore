@@ -52,7 +52,7 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
-src/OnlineShop.Data/shop.db
-src/OnlineShop.Data/shop.db-shm
-src/OnlineShop.Data/shop.db-wal
-src/OnlineShop.Web.UI/shop.db
+shop.db
+shop.db-shm
+shop.db-wal
+

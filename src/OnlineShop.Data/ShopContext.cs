@@ -20,6 +20,7 @@ public class ShopContext : DbContext
             entity.Property(e => e.Name).IsRequired();
             entity.Property(e => e.Price).HasColumnType("DECIMAL(10,2)");
             entity.Property(e => e.CreatedAt).HasDefaultValueSql("CURRENT_TIMESTAMP");
+           
         });
         modelBuilder.Entity<Category>(entity =>
         {
